@@ -54,5 +54,5 @@ def process_images(input_folder, output_folder=None, display=False):
 
 if __name__ == "__main__":
     input_folder = "data"
-    output_folder = "processed_data"  # Set to None if saving is not needed
+    output_folder = None  # Set to None if saving is not needed
     process_images(input_folder, output_folder, display=True)  # Set display=False to disable visualization
